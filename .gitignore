@@ -1,0 +1,118 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+*.egg-info/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.project
+.classpath
+.settings/
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+.pytest_cache/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+firestore.rules
+firestore.indexes.json
+
+# Uploads & temp files
+uploads/
+temp/
+tmp/
+*.tmp
+
+# Docker
+docker-compose.override.yml
+
+# Miscellaneous
+.cache/
+.parcel-cache/
+.vercel
+.turbo
+
+# ML models (large files)
+*.h5
+*.pkl
+*.joblib
+models/*.pt
+models/*.pth
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Documentation build
+docs/_build/
+site/
+
+# Certificates & Keys
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+service-account-key.json
+google-credentials.json
+
+# n8n data
+.n8n/
+
+# Backup files
+*.bak
+*.backup
+*.old
