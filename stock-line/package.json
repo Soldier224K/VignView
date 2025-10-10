@@ -1,0 +1,21 @@
+{
+  "name": "stock-line",
+  "version": "1.0.0",
+  "description": "Smart Stock, Simple Shop - AI-powered retail management system",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:dev\" \"npm run ml:dev\"",
+    "backend:dev": "cd backend && npm run dev",
+    "frontend:dev": "cd frontend && npm run dev",
+    "ml:dev": "cd ml-service && python main.py",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install && cd ../ml-service && pip install -r requirements.txt"
+  },
+  "keywords": ["retail", "inventory", "ai", "whatsapp", "automation"],
+  "author": "Stock Line Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
